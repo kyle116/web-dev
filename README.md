@@ -18,11 +18,11 @@
 * Code Academy HTML: [https://www.codecademy.com/learn/learn-html](https://www.codecademy.com/learn/learn-html)
 * Code Academy CSS: [https://www.codecademy.com/learn/learn-css](https://www.codecademy.com/learn/learn-css)
 * Code Academy JavaScript: [https://www.codecademy.com/learn/introduction-to-javascript](https://www.codecademy.com/learn/introduction-to-javascript)
-* Using Terminal, GitHub, Markdown, Text Editor/IDE: 
+* Using Terminal, GitHub, Markdown, Text Editor/IDE:
 	* GitHub: [https://github.com/](https://github.com/)
-	* Markdown: 
+	* Markdown:
 		* [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 		* [Tutorial](https://www.markdowntutorial.com/)
 	* Text Editor/IDE: [Atom](https://atom.io/)
 * General Assembly's Dash HTML/CSS/JavaScript: [https://dash.generalassemb.ly/](https://dash.generalassemb.ly/)
-* https://codepen.io/mnimmz/pen/yJwBYp
+* Create Google's Homepage with HTML/CSS
