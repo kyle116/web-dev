@@ -26,3 +26,5 @@
 	* Text Editor/IDE: [Atom](https://atom.io/)
 * General Assembly's Dash HTML/CSS/JavaScript: [https://dash.generalassemb.ly/](https://dash.generalassemb.ly/)
 * Create Google's Homepage with HTML/CSS
+	* (Optional) Create Netflix's Homepage with HTML/CSS
+* JavaScript Code Challenges
