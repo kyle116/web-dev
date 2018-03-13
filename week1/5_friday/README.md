@@ -20,10 +20,7 @@ You will recreate Netflix's Homepage with HTML/CSS. You will be using either the
 * Try not to use fixed positioning such as:
 ```
 div {
-
   display: absolute;
-
   top: 100px;
-
 }
 ```
