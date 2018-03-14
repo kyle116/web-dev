@@ -20,7 +20,7 @@ You can probably find the solution online but its important you're not copying p
 
 ##### Example:
 
-**Extract the first half of a string of even length**
+##### Extract the first half of a string of even length
 Write a function to extract the first half of a string of even length. Return an error message if not even.
 
 You know how to start it by writing a function with an argument
@@ -61,7 +61,8 @@ function halfString(str) {
   return "Error! String entered is odd."
 }
 ```
-
+------
+### Challenges
 
 #### Convert Celsius to Fahrenheit
 Write a program that prompts a user input and reads a Celsius degree, then converts it to Fahrenheit and displays the result. The formula for the conversion is as follows:
