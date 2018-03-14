@@ -15,6 +15,54 @@ Or use the Google Chrome's built JavaScript console by typing in `about:blank` i
 
 For each challenge, console.log the result.
 
+#### Tips:
+You can probably find the solution online but its important you're not copying pasting questions into google to find the answer. In the real world, you won't have a question nicely written up for you to google. Try to google the bit that you are stuck on.
+
+##### Example:
+
+**Extract the first half of a string of even length**
+Write a function to extract the first half of a string of even length. Return an error message if not even.
+
+You know how to start it by writing a function with an argument
+```
+function halfString(str) {
+
+}
+```
+
+The question asks to get half the string but IF its even of length. Maybe you don't know how to do this so lets google. You might search something like "if string is even javascript". Its important to put the language after your question or you might find an answer in a different language and the syntax won't match up.
+
+Your google result didn't give you exactly what you wanted. But you did find a question about determining a number if its [even or odd](https://stackoverflow.com/questions/6211613/testing-whether-a-value-is-odd-or-even).
+
+The answer displays:
+```
+function isEven(n) {
+   return n % 2 == 0;
+}
+```
+
+You're not determining whether if a number is even or not but you do know how to find the `length` of a string! `str.length`
+```
+function halfString(str) {
+  if (str.length % 2 == 0) {
+
+  }
+}
+```
+
+Now that we are checking if the string is even or not, now we need to `return` the first half of the even string. If you dont know how to cut the string in half? Lets google it, we can google something like "cut string in half JavaScript". The second link brings up w3schools link to the JavaScript method `.slice()`. This looks exactly like what we are looking for. We need the beginning of the string, easy its 0. Then the half way point of the string. Well we just got the length of the string previously so all we need to divide by 2 to get the halfway point.
+
+Lets also return an error message if the string isn't even.
+```
+function halfString(str) {
+  if (str.length % 2 == 0) {
+    return str.slice(0, str.length / 2);
+  }
+  return "Error! String entered is odd."
+}
+```
+
+
 #### Convert Celsius to Fahrenheit
 Write a program that prompts a user input and reads a Celsius degree, then converts it to Fahrenheit and displays the result. The formula for the conversion is as follows:
 
@@ -129,7 +177,21 @@ console.log(arrayToObj(["a", "cat", "b", "dog"]))
 ```
 
 #### Largest of 3 integers
-https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-31.php
+Write a function that takes 3 numbers as arguments and returns the largest of the 3
+
+**Code**
+```
+console.log(largestOf3(1,0,1));
+console.log(largestOf3(0,-10,-20));
+console.log(largestOf3(1000,510,440));
+```
+
+**Expected Output:**
+```
+1
+0
+1000
+```
 
 #### Reverse String
 https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-48.php

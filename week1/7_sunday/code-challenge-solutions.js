@@ -95,3 +95,20 @@ function arrayToObj(arr) {
   }
   return obj;
 }
+
+// Largest of 3 integers
+function largestOf3(x, y, z) {
+  var max = 0;
+  if (x > y) {
+    max = x;
+  } else {
+    max = y;
+  }
+  if (z > max) {
+    max = z;
+  }
+  return max;
+}
+console.log(largestOf3(1,0,1));
+console.log(largestOf3(0,-10,-20));
+console.log(largestOf3(1000,510,440));
