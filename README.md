@@ -2,8 +2,7 @@
 
 12 week schedule
 
-## Learn:
-
+### Learn:
 * HTML
 * CSS
 * JavaScript
@@ -12,19 +11,24 @@
 * MongoDB
 * Express
 
-## Week 1
+### Web Development Documentation:
+You shouldn't trust everything you see on internet but you should trust these sites in your web development journey!
 
-### [Monday](https://github.com/kyle116/web-dev/tree/master/week1/1_monday)
+* [w3schools](https://www.w3schools.com/)
+* [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
+
+### Week 1
+#### [Monday](https://github.com/kyle116/web-dev/tree/master/week1/1_monday)
 * Basics of HTML, CSS, JavaScript and how they work (read article): [https://blog.hubspot.com/marketing/web-design-html-css-javascript](https://blog.hubspot.com/marketing/web-design-html-css-javascript)
 * Code Academy HTML: [https://www.codecademy.com/learn/learn-html](https://www.codecademy.com/learn/learn-html)
 
-### [Tuesday](https://github.com/kyle116/web-dev/tree/master/week1/2_tuesday)
+#### [Tuesday](https://github.com/kyle116/web-dev/tree/master/week1/2_tuesday)
 * Code Academy CSS: [https://www.codecademy.com/learn/learn-css](https://www.codecademy.com/learn/learn-css)
 
-### [Wednesday](https://github.com/kyle116/web-dev/tree/master/week1/3_wenesday)
+#### [Wednesday](https://github.com/kyle116/web-dev/tree/master/week1/3_wenesday)
 * General Assembly's Dash HTML/CSS/JavaScript: [https://dash.generalassemb.ly/](https://dash.generalassemb.ly/)
 
-### [Thursday](https://github.com/kyle116/web-dev/tree/master/week1/4_thursday)
+#### [Thursday](https://github.com/kyle116/web-dev/tree/master/week1/4_thursday)
 * General Assembly's Dash HTML/CSS/JavaScript: [https://dash.generalassemb.ly/](https://dash.generalassemb.ly/)
 * Using Terminal, GitHub, Markdown, Text Editor/IDE:
 	* GitHub: [https://github.com/](https://github.com/)
@@ -35,13 +39,13 @@
 * Create Google's Homepage with HTML/CSS
 	* (Optional) Create Netflix's Homepage with HTML/CSS
 
-### [Friday](https://github.com/kyle116/web-dev/tree/master/week1/5_friday)
+#### [Friday](https://github.com/kyle116/web-dev/tree/master/week1/5_friday)
 * Create Google's Homepage with HTML/CSS
 	* (Optional) Create Netflix's Homepage with HTML/CSS
 
-### [Saturday](https://github.com/kyle116/web-dev/tree/master/week1/6_saturday)
+#### [Saturday](https://github.com/kyle116/web-dev/tree/master/week1/6_saturday)
 * Code Academy JavaScript: [https://www.codecademy.com/learn/introduction-to-javascript](https://www.codecademy.com/learn/introduction-to-javascript)
 
-### [Sunday](https://github.com/kyle116/web-dev/tree/master/week1/7_sunday)
+#### [Sunday](https://github.com/kyle116/web-dev/tree/master/week1/7_sunday)
 * Code Academy JavaScript: [https://www.codecademy.com/learn/introduction-to-javascript](https://www.codecademy.com/learn/introduction-to-javascript)
-* JavaScript Code Challenges
+* [JavaScript Code Challenges](https://github.com/kyle116/web-dev/tree/master/week1/7_sunday#challenges)
