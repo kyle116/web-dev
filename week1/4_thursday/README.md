@@ -44,9 +44,10 @@ Atom is a free and open-source text and source code editor for macOS, Linux, and
 
 ### Create Google's Homepage in HTML/CSS
 
-You will recreate Google's Homepage with HTML/CSS. You will be using either the screenshot provided or Google.com as reference.
+You will recreate Google's Homepage with HTML/CSS. You will be using either the [screenshot provided](https://github.com/kyle116/web-dev/blob/master/week1/4_thursday/google-solution-code/googleHomePage.JPG) or Google.com as reference.
 
 * Use links for any images needed
+	* Google Logo - https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/evolving_google_identity_share.jpg
 * Try not to use fixed positioning such as:
 ```
 div {

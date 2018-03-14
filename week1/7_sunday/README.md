@@ -1,10 +1,10 @@
-## Sunday
+# Sunday
 
-### Finish Code Academy's JavaScript course
+## Finish Code Academy's JavaScript course
 * Code Academy JavaScript: [https://www.codecademy.com/learn/introduction-to-javascript](https://www.codecademy.com/learn/introduction-to-javascript)
 
 
-### JavaScript Code Challenges
+## JavaScript Code Challenges
 Now that you have gotten some JavaScript experience, time to put it to the test. The following are challenges to complete. If the instructions are a bit hard to understand, they were meant to be that way! Not every thing in programming will be straight forward and be easy to understand.
 
 Feel free to use an online JavaScript console such as:
@@ -15,12 +15,12 @@ Or use the Google Chrome's built JavaScript console by typing in `about:blank` i
 
 For each challenge, console.log the result.
 
-#### Tips:
+### Tips:
 You can probably find the solution online but its important you're not copying pasting questions into google to find the answer. In the real world, you won't have a question nicely written up for you to google. Try to google the bit that you are stuck on.
 
-##### Example:
+#### Example:
 
-##### Extract the first half of a string of even length
+#### Extract the first half of a string of even length
 Write a function to extract the first half of a string of even length. Return an error message if not even.
 
 You know how to start it by writing a function with an argument
@@ -62,14 +62,14 @@ function halfString(str) {
 }
 ```
 ------
-### Challenges
+## Challenges
 
-#### Convert Celsius to Fahrenheit
+### Convert Celsius to Fahrenheit
 Write a program that prompts a user input and reads a Celsius degree, then converts it to Fahrenheit and displays the result. The formula for the conversion is as follows:
 
 `fahrenheit = (9 / 5) * celsius + 32`
 
-#### Which January starts on a Sunday between a range of years
+### Which January starts on a Sunday between a range of years
 Write a program to find which January begins on a Sunday between 2014 and 2050.
 
 **Expected Output:**
@@ -81,7 +81,7 @@ January starts on Sunday in year:  2040
 January starts on Sunday in year:  2045
 ```
 
-#### Add 2 integers
+### Add 2 integers
 Write a function called add that takes 2 numbers as arguments and returns the sum.
 
 **Code:**
@@ -111,7 +111,7 @@ console.log(evenOdd(4));
 4 is even
 ```
 
-#### 2 integers: Positive or Negative
+### 2 integers: Positive or Negative
 Write a function called positiveNegative to check from two given integers, if one is positive and one is negative.
 
 **Code:**
@@ -130,7 +130,7 @@ true
 false
 ```
 
-#### Begins with "X"?
+### Begins with "X"?
 Write a function to create a new string adding "X" in front of a given string. If the given string begins with "X" or "x" then return the original string.
 
 **Code:**
@@ -147,7 +147,7 @@ xray
 XMalcom
 ```
 
-#### How many days in the month
+### How many days in the month
 Write a function that takes in 2 arguments, first one being the number of the month (1: January, 2: February...etc.) and second one the 4 digit year. Display how many days are in that month of the specified year. Remember to account for leap years in February.
 
 **Code:**
@@ -164,7 +164,7 @@ February 2012 had 29 days
 February 2013 had 28 days
 ```
 
-#### Array to Object
+### Array to Object
 Write a function called arrayToObj that takes an array that has an even number of elements (all elements are strings) and converts each adjacent element into a key-value pair property on an object. Assume an even amount of items in the array.
 
 **Code:**
@@ -177,7 +177,7 @@ console.log(arrayToObj(["a", "cat", "b", "dog"]))
 {a: "cat", b: "dog"}
 ```
 
-#### Largest of 3 integers
+### Largest of 3 integers
 Write a function that takes 3 numbers as arguments and returns the largest of the 3
 
 **Code**
@@ -194,11 +194,50 @@ console.log(largestOf3(1000,510,440));
 1000
 ```
 
-#### Reverse String
-https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-48.php
+### Reverse String
+Write a JavaScript function that takes in a string and returns it reversed
 
-#### Find the kth greatest element of a given array of integers
-https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-90.php
+**Code:**
+```
+console.log(reverseString("LeBron"));
+console.log(reverseString("James"));
+console.log(reverseString("JavaScript"));
+```
 
-#### Find the number which appears most in a given array of integers
-https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-94.php
+**Expected Output:**
+```
+norBeL
+semaJ
+tpircSavaJ
+```
+
+### Find the nth greatest element of a given array of integers
+Write a function that takes in an array and number and returns the nth largest number(referring to the argument passed in) of the array.
+
+**Code:**
+```
+console.log(nthLargest([1,2,3,4,5], 2))
+console.log(nthLargest([-10,-25,-47,-36,28,0,10], 1))
+```
+
+**Expected Output:**
+```
+4
+28
+```
+
+### Array Frequency
+Write a function that displays the frequency of an array as an object
+
+**Code:**
+```
+console.log(frequencyNumbers([2, 2, 4, 5, 1]));
+console.log(frequencyNumbers([2, 41, 49, 5, 1, 1, 32, 12, 2, 41]));
+
+```
+
+**Expected Output:**
+```
+{1: 1, 2: 2, 4: 1, 5: 1}
+{1: 2, 2: 2, 5: 1, 12: 1, 32: 1, 41: 2, 49: 1}
+```

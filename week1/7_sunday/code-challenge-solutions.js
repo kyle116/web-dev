@@ -112,3 +112,56 @@ function largestOf3(x, y, z) {
 console.log(largestOf3(1,0,1));
 console.log(largestOf3(0,-10,-20));
 console.log(largestOf3(1000,510,440));
+
+// Reverse String
+function reverseString(str) {
+  return str.split("").reverse().join("");
+}
+// alternate solution
+function reverseString(str) {
+  var reversed = "";
+  for (var i = str.length - 1; i >= 0; i--) {
+    reversed += str[i];
+  }
+  return reversed;
+}
+console.log(reverseString("LeBron"));
+console.log(reverseString("James"));
+console.log(reverseString("JavaScript"));
+
+// Find the nth greatest element of a given array of integers
+function nthLargest(arr, n) {
+  for (var i = 0; i < n; i++) {
+    var maxIndex = i,
+      tmp = arr[i];
+
+    for (var j = i + 1; j < arr.length; j++) {
+      if (arr[j] > arr[maxIndex]) {
+        maxIndex = j;
+      }
+    }
+
+    arr[i] = arr[maxIndex];
+    arr[maxIndex] = tmp;
+  }
+  return arr[n - 1];
+}
+console.log(nthLargest([1,2,3,4,5], 2));
+console.log(nthLargest([-10,-25,-47,-36,28,0,10], 1));
+
+// Array Frequency
+function frequencyNumbers(arr) {
+  var frequency = {};
+  var max = 0;
+  var result;
+  for(i = 0; i < arr.length; i++) {
+    frequency[arr[i]] = (frequency[arr[i]] || 0) + 1;
+    if(frequency[arr[i]] > max) {
+      max = frequency[arr[i]];
+      result = arr[i];
+    }
+  }
+  return frequency;
+}
+console.log(frequencyNumbers([2, 2, 4, 5, 1]));
+console.log(frequencyNumbers([2, 41, 49, 5, 1, 1, 32, 12, 2, 41]));
