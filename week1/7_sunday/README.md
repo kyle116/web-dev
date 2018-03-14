@@ -24,11 +24,118 @@ Write a program that prompts a user input and reads a Celsius degree, then conve
 Write a program to find which January begins on a Sunday between 2014 and 2050.
 
 **Expected Output:**
-`January starts on Sunday in year:  2017
+```
+January starts on Sunday in year:  2017
 January starts on Sunday in year:  2023
 January starts on Sunday in year:  2034
 January starts on Sunday in year:  2040
-January starts on Sunday in year:  2045`
+January starts on Sunday in year:  2045
+```
 
-#### Check 2 integers and determine positive or negative
-https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-20.php
+#### Add 2 integers
+Write a function called add that takes 2 numbers as arguments and returns the sum.
+
+**Code:**
+```
+console.log(add(1, 2));
+console.log(add(5, 3));
+```
+
+**Expected Output:**
+```
+3
+8
+```
+
+### Even or Odd
+Write a function that takes in a number as an argument and displays if it is even or odd
+
+**Code:**
+```
+console.log(evenOdd(1));
+console.log(evenOdd(4));
+```
+
+**Expected Output:**
+```
+1 is odd
+4 is even
+```
+
+#### 2 integers: Positive or Negative
+Write a function called positiveNegative to check from two given integers, if one is positive and one is negative.
+
+**Code:**
+```
+console.log(positiveNegative(2, 2));
+console.log(positiveNegative(-2, 2));
+console.log(positiveNegative(2, -2));
+console.log(positiveNegative(-2, -2));
+```
+
+**Expected Output:**
+```
+false
+true
+true
+false
+```
+
+#### Begins with "X"?
+Write a function to create a new string adding "X" in front of a given string. If the given string begins with "X" or "x" then return the original string.
+
+**Code:**
+```
+console.log(checkX("Xxxtentacion"));
+console.log(checkX("xray"));
+console.log(checkX("Malcom"));
+```
+
+**Expected Output:**
+```
+Xxxtentacion
+xray
+XMalcom
+```
+
+#### How many days in the month
+Write a function that takes in 2 arguments, first one being the number of the month (1: January, 2: February...etc.) and second one the 4 digit year. Display how many days are in that month of the specified year. Remember to account for leap years in February.
+
+**Code:**
+```
+console.log(daysInMonth(1, 2012));
+console.log(daysInMonth(2, 2012));
+console.log(daysInMonth(2, 2014));
+```
+
+**Expected Output:**
+```
+January 2012 had 31 days
+February 2012 had 29 days
+February 2013 had 28 days
+```
+
+#### Array to Object
+Write a function called arrayToObj that takes an array that has an even number of elements (all elements are strings) and converts each adjacent element into a key-value pair property on an object. Assume an even amount of items in the array.
+
+**Code:**
+```
+console.log(arrayToObj(["a", "cat", "b", "dog"]))
+```
+
+**Expected Output:**
+```
+{a: "cat", b: "dog"}
+```
+
+#### Largest of 3 integers
+https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-31.php
+
+#### Reverse String
+https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-48.php
+
+#### Find the kth greatest element of a given array of integers
+https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-90.php
+
+#### Find the number which appears most in a given array of integers
+https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-94.php
