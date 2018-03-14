@@ -15,8 +15,9 @@ Continue and finish any of General Assembly's Dash HTML/CSS/JavaScript that is l
 There are also other Git repository hosting sites, GitHub is just one of them. Others like BitBucket and ProjectLocker also do Git repository hosting. Each hosting site have different price plans. Feel free to take a look at the different ones.
 
 #### Markdown:
-	* [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-	* [Tutorial](https://www.markdowntutorial.com/)
+* [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [Tutorial](https://www.markdowntutorial.com/)
+
 **What is Markdown?**
 (From: https://blog.ghost.org/markdown/)
 
