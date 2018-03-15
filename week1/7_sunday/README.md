@@ -41,7 +41,7 @@ function isEven(n) {
 }
 ```
 
-You're not determining whether if a number is even or not but you do know how to find the `length` of a string! `str.length`
+You're not determining whether if a number is even or not. Instead you are trying to find out whether the string length is even or not and you do know how to find the `length` of a string! `str.length`
 ```
 function halfString(str) {
   if (str.length % 2 == 0) {
