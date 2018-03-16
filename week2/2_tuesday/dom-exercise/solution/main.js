@@ -38,7 +38,10 @@ document.querySelectorAll(".box-6").forEach(function(elem, index) {
 document.getElementById("answer-7").innerHTML = document.title;
 // Exercise 8 - Click on the box to display an image in the img tag above this. Remove the image if you click the box again
 document.getElementById("box-8").addEventListener("click", function() {
-  document.getElementsByTagName("img")[0].src = (document.getElementsByTagName("img")[0].src === "" ? "" : "");
+  document.getElementsByTagName("img")[0].src = (document.getElementsByTagName("img")[0].src ? "https://at-cdn-s01.audiotool.com/2015/12/17/documents/TqIm14MAHKQxPfUlAZ0FM8sApH7f/0/cover256x256-b4c0e9d7e44047e883bc326e609eb50f.jpg" : "");
 })
-// Exercise 9
-// Exercise 10
+// Exercise 9 - For each key typed in the input field, give the same output to the output box
+document.getElementsByTagName("input")[0].addEventListener("keypress", function() {
+  document.getElementById("output-9").innerHTML = document.getElementsByTagName("input")[0].value;
+})
+// Exercise 10 - Click on the box to begin the countdown
