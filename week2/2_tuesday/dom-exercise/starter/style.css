@@ -1,0 +1,58 @@
+body {
+  margin: 0px;
+}
+div {
+  border-bottom: 3px solid black;
+}
+.number {
+  height: 110%;
+  padding: 20px 0;
+}
+.question {
+  display: block;
+  margin: 10px 0;
+}
+.box {
+  border: 2px solid black;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  vertical-align: center;
+  margin-left: 2px;
+}
+
+/* Exercise 4 */
+#box-4 {
+  text-align: center;
+}
+
+/* Exercise 6 */
+.box-6 {
+  border: 2px solid black;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  vertical-align: center;
+  margin-left: 2px;
+}
+#span-6 {
+  display: block;
+}
+
+/* Exercise 8 */
+#span-8 {
+  display: block;
+}
+
+/* Exercise 9 */
+#output-9 {
+  min-width: 100px;
+  min-height: 20px;
+  width: auto;
+  border: 2px solid black;
+  display: inline-block;
+  vertical-align: middle;
+}
+#span-9 {
+  display: block;
+}
