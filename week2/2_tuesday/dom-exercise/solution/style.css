@@ -21,6 +21,11 @@ div {
   margin-left: 2px;
 }
 
+/* Exercise 3 */
+li {
+  color: black;
+}
+
 /* Exercise 4 */
 #box-4 {
   text-align: center;
