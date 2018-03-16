@@ -27,9 +27,18 @@ document.getElementById("box-5").addEventListener("click", function() {
   document.getElementById("number-5").insertBefore(newDiv, document.getElementById("number-5").children[2]);
 })
 // Exercise 6 - By clicking any of the boxes, change the first box color to Yellow, the second to Purple, the third to Blue
-
-// Exercise 7
+document.querySelectorAll(".box-6").forEach(function(elem, index) {
+  elem.addEventListener("click", function() {
+    document.getElementsByClassName("box-6")[0].style.backgroundColor = "yellow";
+    document.getElementsByClassName("box-6")[1].style.backgroundColor = "purple";
+    document.getElementsByClassName("box-6")[2].style.backgroundColor = "blue";
+  })
+})
+// Exercise 7 - Display the title of this HTML Document here:
 document.getElementById("answer-7").innerHTML = document.title;
-// Exercise 8
+// Exercise 8 - Click on the box to display an image in the img tag above this. Remove the image if you click the box again
+document.getElementById("box-8").addEventListener("click", function() {
+  document.getElementsByTagName("img")[0].src = (document.getElementsByTagName("img")[0].src === "" ? "" : "");
+})
 // Exercise 9
 // Exercise 10
