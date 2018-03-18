@@ -45,3 +45,6 @@ document.getElementsByTagName("input")[0].addEventListener("keypress", function(
   document.getElementById("output-9").innerHTML = document.getElementsByTagName("input")[0].value;
 })
 // Exercise 10 - Click on the box to begin the countdown
+document.getElementById("box-10").addEventListener("click", function() {
+  document.getElementById("box-10").innerHTML = parseInt(document.getElementById("box-10").innerHTML) - 1;
+})
