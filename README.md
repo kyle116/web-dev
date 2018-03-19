@@ -53,7 +53,7 @@ You shouldn't trust everything you see on internet but you should trust these si
 
 ### Week 2
 #### [Monday](https://github.com/kyle116/web-dev/tree/master/week2/1_monday)
-* DOM Manipulation: https://www.w3schools.com/js/js_htmldom.asp 
+* DOM Manipulation: https://www.w3schools.com/js/js_htmldom.asp
 * Target, Event Listener, Event, Callback function
 
 #### [Tuesday](https://github.com/kyle116/web-dev/tree/master/week2/2_tuesday)
@@ -63,12 +63,13 @@ You shouldn't trust everything you see on internet but you should trust these si
 #### [Wednesday](https://github.com/kyle116/web-dev/tree/master/week2/3_wenesday)
 * Libraries and Frameworks: https://www.programcreek.com/2011/09/what-is-the-difference-between-a-java-library-and-a-framework/
 * jQuery: https://www.w3schools.com/jquery/jquery_intro.asp
+* jQuery Exercise
 
 #### [Thursday](https://github.com/kyle116/web-dev/tree/master/week2/4_thursday)
+* Create Tic Tac Toe
 
 #### [Friday](https://github.com/kyle116/web-dev/tree/master/week2/5_friday)
 
 #### [Saturday](https://github.com/kyle116/web-dev/tree/master/week2/6_saturday)
 
 #### [Sunday](https://github.com/kyle116/web-dev/tree/master/week2/7_sunday)
-
