@@ -1,17 +1,34 @@
+// Rememmber to link the jQuery library to the HTML Document
+
 // Exercise 1 - Click the box to change it to the color blue
-document.getElementById("box-1").addEventListener("click", function() {
-  document.getElementById("box-1").style.backgroundColor = "blue";
-})
+// document.getElementById("box-1").addEventListener("click", function() {
+//   document.getElementById("box-1").style.backgroundColor = "blue";
+// })
+
+$("#box-1").click(function() {
+  $("#box-1").css("background-color", "blue");
+});
 
 // Exercise 2 - Move your mouse over the box to change it to the color red
-document.getElementById("box-2").addEventListener("mouseover", function() {
-  document.getElementById("box-2").style.backgroundColor = "red";
-})
+// document.getElementById("box-2").addEventListener("mouseover", function() {
+//   document.getElementById("box-2").style.backgroundColor = "red";
+// })
+
+$("#box-2").mouseover(function() {
+  $("#box-2").css("background-color", "red");
+});
 
 // Exercise 3 - Click each li to toggle it between Black color font and Red color font
-var liArr = document.getElementsByTagName("li");
+// var liArr = document.getElementsByTagName("li");
+// for (i = 0; i < liArr.length; i++) {
+//   liArr[i].addEventListener("click", function(e) {
+//     e.target.style.color = (e.target.style.color === "black" ? "red" : "black");
+//   })
+// }
+
+var liArr = $("li");
 for (i = 0; i < liArr.length; i++) {
-  liArr[i].addEventListener("click", function(e) {
+  $(liArr[i]).click(function(e) {
     e.target.style.color = (e.target.style.color === "red" ? "black" : "red");
   })
 }
