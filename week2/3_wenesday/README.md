@@ -34,3 +34,6 @@ Or Copy the CDN link from a website that hosts jQuery like Google:
 ```
 
 Finish reading the jQuery Tutorial on w3xschools: https://www.w3schools.com/jquery/default.asp
+
+## jQuery Exercises
+Complete the exercises in this [folder](https://github.com/kyle116/web-dev/tree/master/week2/3_wenesday/dom-exercise). It is the same as the DOM Manipulation exercises but instead of doing this with plain JavaScript, we will do the same exercises using jQuery. Make sure not to mix JavaScript methods with jQuery elements and vice versa because they will most likely cause errors. 
