@@ -58,7 +58,7 @@ $("#box-5").click(function() {
 // })
 $(".box-6").each(function(index, elem) {
   $(elem).click(function() {
-    $(".box-6:nth-child(2)").css("background-color", "yellow");
+    $(".box-6:nth-child(2").css("background-color", "yellow");
     $(".box-6:nth-child(3)").css("background-color", "purple");
     $(".box-6:nth-child(4)").css("background-color", "blue");
   });
@@ -69,15 +69,30 @@ $(".box-6").each(function(index, elem) {
 $("#answer-7").html(document.title);
 
 // Exercise 8 - Click on the box to display an image in the img tag above this. Remove the image if you click the box again
-document.getElementById("box-8").addEventListener("click", function() {
-  document.getElementsByTagName("img")[0].src = (document.getElementsByTagName("img")[0].src ? "https://at-cdn-s01.audiotool.com/2015/12/17/documents/TqIm14MAHKQxPfUlAZ0FM8sApH7f/0/cover256x256-b4c0e9d7e44047e883bc326e609eb50f.jpg" : "");
-})
+// document.getElementById("box-8").addEventListener("click", function() {
+//   document.getElementsByTagName("img")[0].src = (document.getElementsByTagName("img")[0].src ? "https://at-cdn-s01.audiotool.com/2015/12/17/documents/TqIm14MAHKQxPfUlAZ0FM8sApH7f/0/cover256x256-b4c0e9d7e44047e883bc326e609eb50f.jpg" : "");
+// })
+$("#box-8").click(function() {
+  $("img").attr("src", "https://at-cdn-s01.audiotool.com/2015/12/17/documents/TqIm14MAHKQxPfUlAZ0FM8sApH7f/0/cover256x256-b4c0e9d7e44047e883bc326e609eb50f.jpg");
+});
 
 // Exercise 9 - For each key typed in the input field, give the same output to the output box
-document.getElementsByTagName("input")[0].addEventListener("keypress", function() {
-  document.getElementById("output-9").innerHTML = document.getElementsByTagName("input")[0].value;
-})
+// document.getElementsByTagName("input")[0].addEventListener("keypress", function() {
+//   document.getElementById("output-9").innerHTML = document.getElementsByTagName("input")[0].value;
+// })
+$('#number-9 > input').keypress(function() {
+  $("#output-9").html($('#number-9 > input').val());
+});
+
 // Exercise 10 - Click on the box to begin the countdown
-document.getElementById("box-10").addEventListener("click", function() {
-  document.getElementById("box-10").innerHTML = parseInt(document.getElementById("box-10").innerHTML) - 1;
-})
+// document.getElementById("box-10").addEventListener("click", function() {
+//   document.getElementById("box-10").innerHTML = parseInt(document.getElementById("box-10").innerHTML) - 1;
+// })
+$("#box-10").click(function() {
+  var timer = setInterval(function() {
+    $("#box-10").html(parseInt($("#box-10").html()) - 1);
+    if(parseInt($("#box-10").html()) === 0) {
+      clearInterval(timer);
+    }
+  }, 1000)
+});
