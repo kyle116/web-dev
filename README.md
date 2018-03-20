@@ -52,6 +52,8 @@ You shouldn't trust everything you see on internet but you should trust these si
 
 
 ### Week 2
+Daily Code Challenges. Posted in each respective day.
+
 #### [Monday](https://github.com/kyle116/web-dev/tree/master/week2/1_monday)
 * DOM Manipulation: https://www.w3schools.com/js/js_htmldom.asp
 * Target, Event Listener, Event, Callback function

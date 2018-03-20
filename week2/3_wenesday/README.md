@@ -1,5 +1,7 @@
 # Wednesday
 
+Daily Code Challenge: https://www.codewars.com/kata/58daa7617332e59593000006/train/javascript
+
 ## Libraries and Frameworks
 Read this to understand the differences between the 2: https://www.programcreek.com/2011/09/what-is-the-difference-between-a-java-library-and-a-framework/
 

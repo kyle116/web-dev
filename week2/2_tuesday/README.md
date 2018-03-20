@@ -1,5 +1,7 @@
 # Tuesday
 
+Daily Code Challenge: https://www.codewars.com/kata/5842df8ccbd22792a4000245/train/javascript
+
 ## DOM Manipulation
 Read w3schools documentation of JS HTML DOM. Look through the different examples they have on each page and it will give you a more complete understanding of DOM Manipulation.
 

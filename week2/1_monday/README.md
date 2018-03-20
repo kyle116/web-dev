@@ -1,5 +1,9 @@
 # Monday
 
+Create an account on Code Wars and complete this challenge. You will have a daily code challenge to exercise your JavaScript skills.
+
+Daily Code Challenge: https://www.codewars.com/kata/scrolling-text/train/javascript
+
 ## DOM Manipulation
 Read this: https://www.w3schools.com/js/js_htmldom.asp
 
