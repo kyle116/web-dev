@@ -1,0 +1,58 @@
+html, body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: helvetica;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+td {
+  height: 200px;
+  width: 200px;
+}
+
+td div {
+  border-radius: 50%;
+  font-size: 100px;
+  margin: 0 auto;
+  pointer-events: none;
+  text-align: center;
+  width: 100%;
+}
+
+tr td:nth-child(2) {
+  border-left: 4px dashed grey;
+  border-right: 4px dashed grey;
+}
+
+tr:nth-child(2) td {
+  border-top: 4px dashed grey;
+  border-bottom: 4px dashed grey;
+}
+
+button {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
