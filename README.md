@@ -71,6 +71,7 @@ Daily Code Challenges. Posted in each respective day.
 * Create Tic Tac Toe
 
 #### [Friday](https://github.com/kyle116/web-dev/tree/master/week2/5_friday)
+* Create your own game!
 
 #### [Saturday](https://github.com/kyle116/web-dev/tree/master/week2/6_saturday)
 
