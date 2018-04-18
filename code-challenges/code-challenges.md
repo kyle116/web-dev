@@ -43,8 +43,38 @@ codewars link: https://www.codewars.com/kata/simple-pig-latin/javascript
 
 Move the first letter of each word to the end of it, then add "ay" to the end of the word. Leave punctuation marks untouched.
 
-Examples
+Examples:
 ```
 pigIt('Pig latin is cool'); // igPay atinlay siay oolcay
 pigIt('Hello world !');     // elloHay orldWay !
+```
+
+## Create a custom Array.concat() method
+1. Create a customConcat() method with the same functionality as Array.concat().
+2. If the element passed to the customConcat() method is an array, concat each element of the array. (This basically flattens it by one degree). Array.concat() and Array.push() have been disabled.
+
+Examples:
+```
+[123].customConcat("Hello")            // [123, "Hello"]
+[1, 2, 3].customConcat([4, 5, 6])      // [1, 2, 3, 4, 5, 6]
+[1, 2, 3].customConcat([[4, 5, 6], 7]) // [1, 2, 3, [4, 5, 6], 7]
+[{ one: 1, two: 2, three: 3 }].customConcat({four: 4, five: 5, six: 6 }) // [{ one: 1, two: 2, three: 3 }, { four: 4, five: 5, six: 6 }]
+```
+
+Starter:
+```
+Array.prototype.customConcat = function(element){
+
+}
+```
+
+## Delete occurrences of an element if it occurs more than n times
+codewars link: https://www.codewars.com/kata/554ca54ffa7d91b236000023/solutions/javascript/all/best_practice
+
+Given a list lst and a number N, create a new list that contains each number of lst at most N times without reordering. For example if N = 2, and the input is [1,2,3,1,2,1,2,3], you take [1,2,3,1,2], drop the next [1,2] since this would lead to 1 and 2 being in the result 3 times, and then take 3, which leads to [1,2,3,1,2,3].
+
+Example:
+```
+deleteNth ([1,1,1,1],2) // return [1,1]
+deleteNth ([20,37,20,21],1) // return [20,37,21]
 ```
