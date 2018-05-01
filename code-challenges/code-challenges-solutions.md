@@ -186,3 +186,57 @@ function deleteNth(arr,x) {
   });
 }
 ```
+
+## Recreate forEach(), map(), filter(), reduce()
+
+```
+Array.prototype.map = function() {}
+
+var arr = [1, 2, 3]
+arr.map((e, i, a) => e * a[1] - i)
+console.log(arr, newArr)
+
+Array.prototype.filter = function() {}
+
+var arr = [1, 2, 3, 4]
+let newArr = arr.filter((e, i, a) => e % a[1] === 0)
+console.log(arr, newArr)
+newArr = ['abc', 123, ['foo', 'bar']].filter(e => Array.isArray(e)) // => [['foo', 'bar']]
+console.log(newArr)
+
+
+Array.prototype.reduce = function() {}
+
+let arr = [1, 2, 3]
+let res = arr.reduce((acc, item) => acc + item) // => 7
+console.log(arr, res)
+let res = arr.reduce((acc, item) => acc + item, 0) // => 6
+console.log(arr, res)
+let res = arr.reduce((acc, item) => acc + item, ) // => 12
+console.log(arr, res)
+arr = [
+  { id: 0, name: 'wee' },
+  { id: 1, name: 'bar' },
+  { id: 2, name: 'foo' }
+]
+res = arr.reduce((acc, item) => {
+  acc[item.id] = item.name
+  return acc
+}, {})
+console.log(arr, res)
+
+// ==================
+// BONUS
+// Recursive Implementations
+// do them all recursively except recduce
+```
+
+```
+Array.prototype.reduce = function(fun, total) {
+  total = total === undefined ? this[0] : total;
+  for(var i = 0; i < this.length; i++) {
+    total = fun(total, this[i]);
+  }
+  return total;
+}
+```
