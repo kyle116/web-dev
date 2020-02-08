@@ -35,7 +35,10 @@ You shouldn't trust everything you see on internet but you should trust these si
 	* Markdown:
 		* [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 		* [Tutorial](https://www.markdowntutorial.com/)
-	* Text Editor/IDE: [Atom](https://atom.io/)
+	* Text Editor/IDE: 
+		* [Sublime](https://www.sublimetext.com/)
+		* [VSCode](https://code.visualstudio.com/)
+		* [Atom](https://atom.io/)
 * Create Google's Homepage with HTML/CSS
 	* (Optional) Create Netflix's Homepage with HTML/CSS
 
